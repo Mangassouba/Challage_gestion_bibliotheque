@@ -13,46 +13,32 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
           <!-- <a class="nav-link" href="#">Liste de Livres</a> -->
-           <RouterLink>Liste de Livres</RouterLink>
+           <a> <RouterLink class="nav-link" to="/Livres">Liste de Livres</RouterLink></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Liste des Membres</a>
+          <!-- <a class="nav-link" to="/Membres">Liste des Membres</a> -->
+          <RouterLink class="nav-link" to="/Membres">Liste des Membres</RouterLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Liste des Prets</a>
+          <!-- <a class="nav-link" to >Liste des Prets</a> -->
+          <RouterLink class="nav-link" to="/Prets">Liste des Prets</RouterLink>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
       </ul>
-      <form class="d-flex">
+      <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>
-
-
-
-
-  <h1>Bonjour</h1>
-  <header>
-        <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-  <!-- <HelloWorld /> -->
+<div class="container mt-5">
   <RouterView />
+</div>
+  
 </template>
 
 <style scoped>
