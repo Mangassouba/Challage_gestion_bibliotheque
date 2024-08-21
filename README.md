@@ -85,6 +85,5 @@ Centralise les données des prêts pour une gestion cohérente.
 **Annuler un prêt** : Un prêt peut être annulé si nécessaire.
 
 ## Auteur
-- Hama Houllah Mangassouba 
-- Assa Ousman Baradji
-https://github.com/Mangassouba/Challage_gestion_bibliotheque.git
+- Hama Houllah Mangassouba https://github.com/Mangassouba
+- Assa Ousman Baradji https://github.com/AssaBaradji
