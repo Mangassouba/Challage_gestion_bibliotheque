@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container mt-6 bg-dark p-4">
     <form class="row gx-3 gy-2 align-items-center" @submit.prevent="onSubmit">
-      <div class="col-sm-3">
+      <div class="col-sm-2">
         <label for="nom">Nom</label>
         <input
           type="text"
@@ -10,7 +10,7 @@
           v-model="formData.nom"
         />
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-2">
         <label for="adresse">Adresse</label>
         <input
           type="text"

@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <form class="row gx-3 gy-2 align-items-center" @submit.prevent="onSubmit">
-      <div class="col-sm-3">
+      <div class="col-sm-2">
         <label for="nom">Nom</label>
         <input type="text" class="form-control" id="nom" v-model="form.nom" />
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-2">
         <label for="adresse">Adresse</label>
         <input
           type="text"

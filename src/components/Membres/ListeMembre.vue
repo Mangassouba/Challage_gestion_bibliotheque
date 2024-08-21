@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4">
+  <div class="container mt-6">
     <AjouterMembre @onAdd="addMembre" />
 
     <table class="table table-bordered table-sm mt-4">
