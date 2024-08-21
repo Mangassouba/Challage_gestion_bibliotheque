@@ -104,7 +104,7 @@ const updatePret = (updatedPret) => {
 
 const viewDetails = (pret) => {
   alert(
-    `Date d'emprumt: ${pret.date_emprunt}\nDate de retours: ${pret.date_retours}\nId Livres: ${pret.id_livre}\nId Membres: ${pret.id_membre}`
+    `Date d'emprumt: ${pret.date_emprunt}\nDate de retours: ${pret.date_retours}\nLivres: ${pret.id_livre}\nMembres: ${pret.id_membre}`
   );
 };
 </script>

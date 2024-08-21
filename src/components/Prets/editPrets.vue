@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-4 p-4 bg-dark">
     <form class="row gx-3 gy-2 align-items-center" @submit.prevent="onSubmit">
       <div class="col-sm-3">
         <label for="date_emprunt">Date d'emprunt</label>
